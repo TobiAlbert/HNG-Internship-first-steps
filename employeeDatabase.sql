@@ -1,0 +1,16 @@
+DROP TABLE IF EXISTS employee;
+
+CREATE TABLE employee(
+
+ID int(11) PRIMARY KEY AUTO_INCREMENT,
+FIRST_NAME VARCHAR (20), 
+LAST_NAME VARCHAR (20),
+ROLE VARCHAR (30)
+);
+
+INSERT INTO employee VALUES 
+	(null, "John", "Doe", "COO");
+
+INSERT INTO employee VALUES
+	(null, "Jane", "Doe", "CTO");
+
